@@ -40,6 +40,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
+gem 'devise'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
