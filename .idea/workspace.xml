@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61214874-4ed0-43db-bebf-4f970630c9b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/listings/index.html.erb" afterPath="$PROJECT_DIR$/app/views/listings/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.yml" afterPath="$PROJECT_DIR$/config/application.yml" />
     </list>
     <ignored path="etsydemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.05379747" vertical-offset="0" max-vertical-offset="632">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/listings/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6452145" vertical-offset="0" max-vertical-offset="606">
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
@@ -138,7 +138,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/config/application.yml" />
         <option value="$PROJECT_DIR$/config/dropbox.yml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20160804183641_remove_namefrom_users.rb" />
         <option value="$PROJECT_DIR$/app/views/listings/index.html.erb" />
+        <option value="$PROJECT_DIR$/config/application.yml" />
       </list>
     </option>
   </component>
@@ -1049,10 +1049,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.yml">
+    <entry file="file://$PROJECT_DIR$/app/views/listings/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="493">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1065,10 +1065,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/listings/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6452145" vertical-offset="0" max-vertical-offset="606">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.05379747" vertical-offset="0" max-vertical-offset="632">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
