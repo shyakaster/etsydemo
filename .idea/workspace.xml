@@ -62,8 +62,8 @@
       <file leaf-file-name="dropbox.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/dropbox.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0806962" vertical-offset="0" max-vertical-offset="632">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.026898734" vertical-offset="0" max-vertical-offset="632">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -1061,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dropbox.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0806962" vertical-offset="0" max-vertical-offset="632">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.026898734" vertical-offset="0" max-vertical-offset="632">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="37" />
           <folding />
         </state>
       </provider>
