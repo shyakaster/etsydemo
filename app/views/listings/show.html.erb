@@ -10,6 +10,10 @@
 	     <h3><strong><%= @listing.name %></strong></h3>
 	      <p> <%= number_to_currency(@listing.price ) %></p>
 	     <p><%= @listing.description %></p>
+        <br>
+        <div class="">
+          <%= link_to "Buy It now", new_listing_order_path(@listing), class: "btn btn-primary"%>
+        </div>
 	  </div>
    </div>
 </div>
