@@ -29,6 +29,19 @@ class OrdersController < ApplicationController
     @order.listing_id = @listing.id
     @order.seller_id = @seller.id
     @order.buyer_id = current_user.id
+
+    Stripe.api_key = ENV["STRIPE_API_KEY"]
+    token = params[:stripeToken]
+    begin
+      charge=Stripe::Charge.create(
+        :ambunt => (@listing.price * 100).floor,
+        :currency => "usd",
+        :card => token
+      )
+      flash[:notice]="Thanks for ordering"
+      rescue Stripe::CardError => e
+      flash[:danger]= e.message
+    end
     respond_to do |format|
       if @order.save
         format.html { redirect_to root_url, notice: 'Order was successfully created.' }

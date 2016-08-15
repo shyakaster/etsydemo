@@ -12,7 +12,7 @@
 	     <p><%= @listing.description %></p>
         <br>
         <div class="">
-          <%= link_to "Buy It now", new_listing_order_path(@listing), class: "btn btn-primary"%>
+          <%= link_to "Buy It now", new_listing_order_path(@listing), class: "btn btn-primary", data: {no_turbolink: true}%>
         </div>
 	  </div>
    </div>
