@@ -30,19 +30,21 @@
     <%= f.label :image %><br>
     <%= f.file_field :image,  class: "form-control" %>
   </div>
-    <h2>Bank account information</h2>
-    <div class="form-group">
-        <%= label_tag :country %>
-        <%= text_field_tag :country, nil, {:name => nil, :'data-stripe' => "country", class: "form-control"} %>
-    </div>
-    <div class="form-group">
-        <%= label_tag :routingNumber %>
-        <%= text_field_tag :routingNumber, nil, {:name => nil, :'data-stripe' => "routingNumber", class: "form-control"} %>
-    </div>
-    <div class="form-group">
-      <%= label_tag :accountNumber %>
-        <%= text_field_tag :accountNumber, nil, {:name => nil, :'data-stripe' => "accountNumber", class: "form-control"} %>
-    </div>
+    <%if current_user.recipient.blank?%>
+        <h2>Bank account information</h2>
+        <div class="form-group">
+            <%= label_tag :country %>
+            <%= text_field_tag :country, nil, {:name => nil, :'data-stripe' => "country", class: "form-control"} %>
+        </div>
+        <div class="form-group">
+            <%= label_tag :routingNumber %>
+            <%= text_field_tag :routingNumber, nil, {:name => nil, :'data-stripe' => "routingNumber", class: "form-control"} %>
+        </div>
+        <div class="form-group">
+          <%= label_tag :accountNumber %>
+            <%= text_field_tag :accountNumber, nil, {:name => nil, :'data-stripe' => "accountNumber", class: "form-control"} %>
+        </div>
+    <%end%>
 
   <div class="actions">
     <%= f.submit class: "btn btn-primary" %>
